@@ -20,7 +20,12 @@ header span{font-size:10px;letter-spacing:2px;color:#b7a58d}
 .note{color:#aaa;font-size:12px;letter-spacing:1px}
 .products{display:grid;grid-template-columns:1fr 1fr;gap:13px}
 .product{background:#1d1b19;padding-bottom:15px}
-.photo{height:210px;background:linear-gradient(145deg,#51483d,#24211e);display:flex;align-items:center;justify-content:center;color:#c9b69a;font-family:Georgia,serif;font-size:13px;letter-spacing:2px}
+.photo{
+width:100%;
+height:250px;
+object-fit:cover;
+display:block;
+}
 .product h3{font-size:14px;margin:13px 10px 7px}
 .price{font-size:13px;color:#c6a77e;margin:0 10px 12px}
 .product a,.contact a{display:block;text-align:center;text-decoration:none;background:#d7c3a4;color:#17130f;padding:12px 8px;margin:0 10px;font-size:11px;font-weight:bold;letter-spacing:1px}
@@ -52,14 +57,14 @@ footer{text-align:center;padding:20px;color:#777;font-size:10px;letter-spacing:2
 <div class="products">
 
 <div class="product">
-<div class="photo">YOUR PHOTO 01</div>
+<img class="photo" src="IMG_20261105_203617.png" alt="Vintage 01">
 <h3>Vintage Piece 01</h3>
 <p class="price">Add price here</p>
 <a href="https://wa.me/213XXXXXXXXX" target="_blank">ASK ON WHATSAPP</a>
 </div>
 
 <div class="product">
-<div class="photo">YOUR PHOTO 02</div>
+<img class="photo" src="IMG_20261105_204202.jpg" alt="Vintage 02">
 <h3>Vintage Piece 02</h3>
 <p class="price">Add price here</p>
 <a href="https://wa.me/213XXXXXXXXX" target="_blank">ASK ON WHATSAPP</a>
